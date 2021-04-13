@@ -23,6 +23,7 @@ sled = {version = "0.34.6", optional = true}
 toml = {version = "0.5.8", optional = true}
 ureq = "1.5.4"
 url = "2.2.1"
+wasmer = {version="1.0.2", optional = true}
 
 [dev-dependencies]
 ntest = "0.7.3"
@@ -30,5 +31,5 @@ lazy_static = "1.4.0"
 
 [features]
 config = ["dirs", "toml"]
-db = ["sled", "bincode"]
+db = ["sled", "bincode", "wasmer"]
 rdf = ["rio_api", "rio_turtle"]
