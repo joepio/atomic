@@ -430,6 +430,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "atomic-plugin-example"
+version = "0.1.0"
+
+[[package]]
 name = "atomic-server"
 version = "0.23.4"
 dependencies = [
